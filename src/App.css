@@ -1,0 +1,20 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open-sans', sans-serif;
+  font-size: 1rem;
+}
+
+.everfit-app {
+  padding: 60px 63.5px;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}

@@ -1,0 +1,132 @@
+.home-page {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    height: 900px;
+}
+
+.wrapper-calendar {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    height: 100%;
+}
+
+.inner-column {
+    flex: 1;
+    height: 100%;
+}
+
+.inner-column .rank {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6A7988;
+    margin-bottom: 9px;
+    font-size: 10px;
+}
+
+.inner-column .contains {
+    background-color: #F3F5F8;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.inner-column .on-day {
+    font-size: 11px;
+    padding: 9.53px 9.42px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #728096;
+}
+
+.today {
+    color: #5A57CB
+}
+
+.workout-item {
+    border: 1px solid #22242626;
+    border-radius: 6px;
+    margin: 0 7px;
+    margin-bottom: 5px;
+}
+
+.main-workout {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    min-height: 60px;
+    padding-bottom: 15px;
+}
+
+.add-new {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+
+.main-workout .label-ex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.93px;
+    padding: 0 7px;
+    text-transform: uppercase;
+    cursor: move;
+}
+
+
+.main-workout .label-ex span {
+    color: #5A57CB;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+.main-workout .sub-workout-contains {
+
+    cursor: move;
+    display: flex;
+    border-radius: 5px;
+    background: white;
+    padding: 0 6px;
+    margin: 3.95px 3px;
+    border: 1px solid gray;
+}
+
+.sub-workout-contains .multiple {
+    display: flex;
+    flex-basis: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+    padding-bottom: 3px;
+}
+
+.sub-workout-contains .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-workout-contains .content p {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    max-width: 123px;
+}
+
+
+.sub-workout-contains .content p.title {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0;
+}
+
+p.desc {
+    font-size: 10px;
+    font-weight: 400;
+    color: #95A6B7;
+}
